@@ -66,8 +66,8 @@ sort_by_age()
 
 
 def merge_dicts():
-    dict1= {1, 2, 3, 4}
-    dict2 = {"a", "b", "c", "d"}
+    dict1=  {'a': 1, 'b': 2}
+    dict2 = {'b': 3, 'c': 4}
 
     dict1.update(dict2)
     print(dict1)
