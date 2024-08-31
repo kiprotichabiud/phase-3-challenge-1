@@ -23,7 +23,15 @@ def count_vowels(text):
             count += 1
     
     return count
-
 print(count_vowels(text))
+
+
+def calculate_factorial(n):
+    factorial = 1
+    for i in range(1, n + 1):
+        factorial *= i
+    return factorial
+n = 1
+print(calculate_factorial(n))
 
 
