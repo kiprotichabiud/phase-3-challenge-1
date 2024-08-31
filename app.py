@@ -55,11 +55,14 @@ result = my_function(2, 4)
 print(result)
 
 
+
+
 def sort_by_age():
     age = [12, 16, 20, 22, 27, 34]
     age.sort()  
     print(age)  
 sort_by_age()
+
 
 
 def merge_dicts():
@@ -69,5 +72,21 @@ def merge_dicts():
     dict1.update(dict2)
     print(dict1)
 merge_dicts()
+
+
+
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def display_info(self):
+        print(f"Car Make: {self.make}")
+        print(f"Car Model: {self.model}")
+        print(f"Car Year: {self.year}")
+
+my_car = Car("Toyota", "supra", 2022)
+my_car.display_info()
 
   
