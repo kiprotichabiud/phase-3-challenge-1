@@ -3,15 +3,18 @@ def add_numbers(num1, num2):
 print(add_numbers(2, 4))
 
 
+
 def is_even(number):
     return number % 2 == 0
 print(is_even(3))
+
 
 
 def reverse_string(text):
   return text[::-1]
 text = reverse_string("Welcome to phase 3")
 print(text)
+
 
 
 def count_vowels(text):
@@ -26,6 +29,7 @@ def count_vowels(text):
 print(count_vowels(text))
 
 
+
 def calculate_factorial(n):
     factorial = 1
     for i in range(1, n + 1):
@@ -33,6 +37,7 @@ def calculate_factorial(n):
     return factorial
 n = 1
 print(calculate_factorial(n))
+
 
 
 
@@ -48,3 +53,11 @@ def my_function(x, y):
 
 result = my_function(2, 4)
 print(result)
+
+
+def sort_by_age():
+    age = [12, 16, 20, 22, 27, 34]
+    age.sort()  
+    print(age)  
+sort_by_age()
+    
