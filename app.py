@@ -8,6 +8,13 @@ def is_even(number):
 print(is_even(3))
 
 
+def reverse_string(text):
+  return text[::-1]
+text = reverse_string("Welcome to phase 3")
+print(text)
+
+
+
 
 
 
