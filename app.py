@@ -35,3 +35,16 @@ n = 1
 print(calculate_factorial(n))
 
 
+
+def apply_decorator(func):
+    def decorator_func(*args, **kwargs):
+        print("Decorator Applied")
+        return func(*args, **kwargs)
+    return decorator_func
+
+@apply_decorator
+def my_function(x, y):
+    return x + y
+
+result = my_function(2, 4)
+print(result)
