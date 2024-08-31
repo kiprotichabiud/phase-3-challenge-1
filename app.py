@@ -14,7 +14,16 @@ text = reverse_string("Welcome to phase 3")
 print(text)
 
 
+def count_vowels(text):
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    text = input("Enter a text: ")
+    count = 0
+    for letter in text:
+        if letter in vowels:
+            count += 1
+    
+    return count
 
-
+print(count_vowels(text))
 
 
